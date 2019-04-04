@@ -8,7 +8,7 @@ while True:
     if Yes != "y":
         break
 print("Thank You and Goodbye!")
-#9.2 FIZZ BUZZ -- Too MANY QUESTIONS :D
+#9.2 FIZZ BUZZ -- TOO MANY QUESTIONS :D
 
 #9.3 String lowercase:
 sentence = input("Please enter a sentence: ")
