@@ -5,12 +5,10 @@ while True:
     km = int(input("Please enter kilometers: "))
     print(km * miles)
     Yes = input("Do you want to do another conversion? Enter y for YES, n for NO: ")
-    if Yes == "y":
-        km = int(input("Please enter kilometers: "))
-        print(km * miles)
-    elif Yes == "n":
+    if Yes != "y":
         break
 print("Thank You and Goodbye!")
+#9.2 FIZZ BUZZ -- Too MANY QUESTIONS :D
 
 #9.3 String lowercase:
 sentence = input("Please enter a sentence: ")
